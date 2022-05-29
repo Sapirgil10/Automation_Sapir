@@ -1,4 +1,4 @@
-package WorkFlows;
+package WorkFlows.AutomationSite;
 import Extensions.uiActions;
 import Utilities.commonOps;
 import io.qameta.allure.Step;

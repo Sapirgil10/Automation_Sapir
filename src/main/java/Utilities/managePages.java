@@ -1,6 +1,6 @@
 package Utilities;
 
-import PageObjects.*;
+import PageObjects.AutomationSite.*;
 import org.openqa.selenium.support.PageFactory;
 
 public class managePages extends base {

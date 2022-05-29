@@ -3,7 +3,7 @@ package SanityTests;
 import Extensions.verifications;
 import Utilities.commonOps;
 import Utilities.constants;
-import WorkFlows.*;
+import WorkFlows.AutomationSite.*;
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

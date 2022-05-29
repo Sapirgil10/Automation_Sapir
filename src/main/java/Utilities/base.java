@@ -1,8 +1,9 @@
 package Utilities;
 
-import PageObjects.*;
+import PageObjects.AutomationSite.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
@@ -21,9 +22,14 @@ public class base {
     public static addItemToCart cartAddingScreen;
     public static paymentSteps endOfPaymentScreen;
 
+//    public static
+
     //Ashot
     public static Screenshot imageScreenShot;
     public static ImageDiffer imgDiff = new ImageDiffer();
     public static ImageDiff diff;
+
+    //Appium
+    public static DesiredCapabilities dc = new DesiredCapabilities();
 
 }
